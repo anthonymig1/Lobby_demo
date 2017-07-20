@@ -1,0 +1,20 @@
+{
+  "name": "Demo_Lobby",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "leagueapi": "^0.4.21",
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.2",
+    "dota2": "^4.2.1",
+    "meteor-node-stubs": "~0.2.4",
+    "react": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-meteor-data": "^0.2.10",
+    "react-mounter": "^1.2.0",
+    "steam": "^1.4.0"
+  }
+}

@@ -1,0 +1,154 @@
+.linkRecuperarContraseña{
+  color: rgb(73, 150, 175);
+}
+
+.linkRecuperarContraseña : hover{
+  color: rgb(18, 47, 102);
+}
+/* CSS declarations go here */
+
+
+/* CSS declarations go here */
+
+body {
+
+  font-family: sans-serif;
+
+  background-color:   #484851 ;
+
+
+}
+.nav-wrapper{
+
+  background-color: #1f618d;
+}
+
+
+.container {
+
+  max-width: 600px;
+
+  margin: 0 auto;
+
+  min-height: 100%;
+  background:  #5d6d7e;
+
+}
+
+
+
+header {
+
+  background: #d2edf4;
+  background-color:#25252b;
+  color:#fff;
+  padding: 20px 15px 15px 15px;
+
+  position: relative;
+
+}
+
+
+
+#login-buttons {
+
+  display: block;
+
+}
+
+
+
+h1 {
+
+  font-size: 1.5em;
+
+  margin: 0;
+
+  margin-bottom: 10px;
+
+  display: inline-block;
+
+  margin-right: 8em;
+
+}
+
+
+
+
+
+
+ul.lobby {
+
+  margin: 0;
+
+  padding: 0;
+  width: 50%;
+
+  background: white;
+  display: inline-block;
+}
+
+
+
+.delete {
+
+  float: right;
+
+  font-weight: bold;
+
+  background: none;
+
+  font-size: 1em;
+
+  border: none;
+
+  position: relative;
+
+}
+
+
+
+li.slot {
+
+  position: relative;
+  background-color:  #5d6d7e;
+  list-style: none;
+  padding: 10px;
+  border-bottom: #eee solid 1px;
+
+}
+
+
+
+li.slot .text {
+
+    background-color:  #5d6d7e;
+
+}
+
+
+
+li.slot.checked {
+
+  color: #888;
+
+}
+
+
+
+li.slot.checked .text {
+
+  text-decoration: line-through;
+
+}
+
+
+@media (max-width: 600px) {
+
+  li.slot {
+
+    padding: 12px 15px;
+
+  }
+
+}
